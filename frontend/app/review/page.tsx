@@ -5,7 +5,7 @@ export default function reviewpage() {
 
     return (
         <div>
-            <Review />
+            <Review imdbId={''} />
         </div>
     );
 }

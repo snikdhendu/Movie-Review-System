@@ -2,7 +2,7 @@ import { verify } from "crypto"
 import mongoose from "mongoose"
 
 const userSchema = new mongoose.Schema({
-    usename: {
+    username: {
         type: String,
         required: [true, "Please Provide a username"],
         unique: true
